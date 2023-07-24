@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+
+        * {
+            size: A4;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightgray;
+            font-size: 12px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 900px;
+            background-color: #ffffff;
+            padding: 30px;
+            overflow: hidden;
+        }
+
+        .float {
+            width: 33%;
+            display: inline-block;
+        }
+
+        .content-inline>div {
+            float: left;
+        }
+
+        .title {
+            width: 35%;
+            padding: 3px;
+        }
+
+        .content {
+            width: 60%;
+            padding: 3px;
+        }
+
+        .table {
+            margin-top: 35px;
+        }
+
+
+        #mainTable>td {
+            text-align: center;
+        }
+
+        #mainTable {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 15px;
+        }
+
+        .bill-summery {
+            margin-left: 17px;
+        }
+
+        .bill-summery>div {
+            float: left;
+        }
+
+        .left {
+            width: 58%;
+        }
+
+        .right {
+            width: 40%;
+            text-align: right;
+        }
+
+        .right>div {
+            display: inline-block;
+        }
+
+        .right1,
+        .right2 {
+            width: 45%;
+        }
+
+        .right1>p {
+            margin: 0;
+            padding: 2px;
+        }
+
+        .right2>p {
+            margin: 0;
+            padding: 2px;
+        }
+ 
